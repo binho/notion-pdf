@@ -1,6 +1,6 @@
 ## Dependencies
 
-Recommened to run usin Python 3.
+Recommended to run using Python 3.
 
 ```
 pip3 install selenium
