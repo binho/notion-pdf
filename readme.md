@@ -1,4 +1,4 @@
-![Screenshot]((https://github.com/binho/notion-pdf/blob/master/screenshot.png))
+![Screenshot](https://github.com/binho/notion-pdf/blob/master/screenshot.png)
 
 ## Dependencies
 
