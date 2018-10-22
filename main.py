@@ -8,13 +8,6 @@ from PyQt5.QtWidgets import (QAction, QApplication, QFileDialog, QLabel,
                              QLineEdit, QMainWindow, QMessageBox, QPushButton,
                              QTextEdit, QVBoxLayout, QWidget, QErrorMessage)
 
-test_urls = [
-    'https://www.notion.so/metalab/Add-Habit-bdaa7ef09412437b8e19b4effd49a689',
-    # 'https://www.notion.so/metalab/Dashboard-9ecef974b09e4bdd8ee87607a493d777',
-    # 'https://www.notion.so/metalab/Agenda-b77043a94e4e4579ba7da5ebcae2da6d',
-    # 'https://www.notion.so/metalab/Onboarding-0573b66355d24854b67561c2f6b7050e'
-]
-
 class Window(QWidget):
 
     def __init__(self, parent=None):
@@ -41,7 +34,6 @@ class Window(QWidget):
         self.layout.addWidget(self.label)
 
         self.text_edit = QTextEdit(self)
-        self.text_edit.setPlainText('\n'.join(test_urls))
         self.text_edit.setMinimumWidth(600)
         self.text_edit.setFont(self.font)
         # self.text_edit.setFont(QFontDatabase.systemFont(QFontDatabase.GeneralFont))
