@@ -1,3 +1,5 @@
+![Screenshot]((https://github.com/binho/notion-pdf/blob/master/screenshot.png))
+
 ## Dependencies
 
 Recommended to run using Python 3.
