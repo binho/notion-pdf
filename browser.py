@@ -70,7 +70,7 @@ def convert_to_pdf(urls, download_path):
     }
     options.add_experimental_option('prefs', prefs)
 
-    browser = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver',
+    browser = webdriver.Chrome(executable_path='bin/chromedriver',
                                chrome_options=options,
                                service_args=['--verbose', '--log-path=/tmp/chromedriver.log'])
     browser.set_window_size(width, height)
