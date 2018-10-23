@@ -72,7 +72,7 @@ def convert_to_pdf(urls, download_path):
 
     browser = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver',
                                chrome_options=options,
-                               service_args=['--verbose', '--log-path=chromedriver.log'])
+                               service_args=['--verbose', '--log-path=/tmp/chromedriver.log'])
     browser.set_window_size(width, height)
     browser.set_page_load_timeout(max_wait)
     browser.set_script_timeout(max_wait)
